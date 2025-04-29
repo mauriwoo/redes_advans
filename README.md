@@ -8,14 +8,11 @@ Automatizar tareas repetitivas de administración y documentación de red sobre 
 
 ## ⚙️ Funcionalidades de los scripts
 
-| Script                        | Función principal                                                                 |
-|------------------------------|------------------------------------------------------------------------------------|
-| `conectar_swX.py`            | Conecta a un switch específico (SW1, SW2, etc.) y muestra el estado de interfaces |
-| `crear_vlanXX_swX.py`        | Crea VLANs específicas en el switch destino con nombre definido                   |
-| `ver_vecinos_ospf.py`        | Consulta y muestra los vecinos OSPF en todos los switches                         |
-| `ver_cdp_neighbors.py`       | Extrae información de vecinos mediante CDP                                        |
-| `exportar_config_swX.py`     | Obtiene y guarda el running-config del switch en un archivo local                 |
-| `ver_vlans.py`               | Muestra las VLANs activas en cada switch                                          |
+| Script                | Función principal                                                                 |
+|-----------------------|------------------------------------------------------------------------------------|
+| `menu_comandos.py`    | Menú interactivo para ejecutar tareas como ver interfaces, vecinos OSPF o CDP, y generar inventario |
+| `inventario_red.py`   | Conecta por SSH a los switches y genera un inventario de interfaces, IPs, VLANs y configuraciones clave |
+
 
 ---
 
