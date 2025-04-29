@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Automatizar tareas repetitivas de administración y documentación de red sobre una topología basada en switches multicapa, utilizando Python y la librería Netmiko. Este sistema centralizado corre desde un servidor Debian y permite interactuar por SSH con dispositivos Cisco en una red simulada mediante GNS3.
+Automatizar tareas repetitivas de administración y documentación de red sobre una topología basada en switches multicapa, utilizando Python y la librería Netmiko. Este sistema centralizado corre desde un servidor Debian y permite interactuar por SSH con dispositivos Cisco en una red simulada mediante GNS3
 
 ---
 
